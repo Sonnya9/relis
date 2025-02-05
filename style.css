@@ -1,1 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+.container{
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 900px;
+    width: 50%;
+    display: flex;
+    background: url("img/hero-item.png");
+
+}
+.right{
+    height: 900px;
+    width: 50%;
+    display: flex;
+    
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    padding: 50px;
+}
+h1{
+    width: 50%;
+    height: 96px;
+    text-align: center;
+    margin: 100px;
+}
 
