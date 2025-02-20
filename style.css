@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -40,16 +39,36 @@ ul li a{
     justify-content: center;
 }
 .left1{
-    background-color: blue;
     height: 324px;
     width: 50%;
     display: flex;
 
 }
 .right1{
-    background-color: aqua;
     height: 324px;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.right1-1{
+    width: 50%;
+    height: 50%;
+}
+
+.right1-2{
+    width: 50%;
+    height: 50%;
+}
+.right1-3{
+    width: 50%;
+    height: 50%;
+}
+.right1-4{
+    width: 50%;
+    height: 50%;
 }
 
 nav{
@@ -94,6 +113,28 @@ h3{
     color: black;
     font-size: 28px;
     padding-left: 50px;
+}
+
+
+.title{
+    width: 38px;
+    height: 17px;
+    font-size: 14px;
+    color: black;
+}
+
+.number{
+    width: 44px;
+    height: 48px;
+    font-size: 40px;
+    color: black;
+}
+
+.text{
+    width: 352px;
+    height: 38px;
+    font-size: 16px;
+    color: black;
 }
 
 
