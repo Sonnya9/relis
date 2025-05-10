@@ -1,1 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 20px;
+}
+ul li a{
+    text-decoration: none;
+}
+.container{
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    height: 900px;
+    width: 50%;
+    display: flex;
+    background: url("img/hero-item.png");
+
+}
+.right{
+    height: 900px;
+    width: 50%;
+}
+
+.main{
+    margin-top: 120px;
+    height: 324px;
+    width: 1528px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left1{
+    height: 324px;
+    width: 50%;
+    display: flex;
+
+}
+.right1{
+    height: 324px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.right1-1{
+    width: 50%;
+    height: 50%;
+}
+
+.right1-2{
+    width: 50%;
+    height: 50%;
+}
+.right1-3{
+    width: 50%;
+    height: 50%;
+}
+.right1-4{
+    width: 50%;
+    height: 50%;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    padding: 50px;
+}
+
+.heading{
+    width: 100%;
+    height: 782px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    width: 361px;
+    height: 96px;
+    color: black;
+    text-align: center;
+}
+h2{
+
+    width: 361px;
+    height: 38px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.nav1{
+    color: black;
+}
+
+h3{
+    width: 613px;
+    height: 132px;
+    color: black;
+    font-size: 28px;
+    padding-left: 50px;
+}
+
+
+.title{
+    width: 38px;
+    height: 17px;
+    font-size: 14px;
+    color: black;
+}
+
+.number{
+    width: 44px;
+    height: 48px;
+    font-size: 40px;
+    color: black;
+}
+
+.text{
+    width: 352px;
+    height: 38px;
+    font-size: 16px;
+    color: black;
+}
+
 
